@@ -10,7 +10,7 @@ The vocabulary comprises all unique terms present in the corpus of article being
 Together, TF and IDF are used to compute the weight of each term in a article. These weights form the basis of the vector representation of article in the vector space model. 
 # FILES
 ```mapper.py```:The csv file is being read and sectences are tokenized to create a list <br> 
-```reducer.py```: <br>
+```reducer.py```: TF-IDF scores are calculated for each word in each document and outputted.<br>
 ```example.csv```: the file consists of 2 columns that are Article ID and Section Text which are used for further analysis.
 
 
