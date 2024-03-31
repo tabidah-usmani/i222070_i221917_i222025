@@ -13,6 +13,8 @@ Together, TF and IDF are used to compute the weight of each term in a article. T
 ```reducer.py```: TF-IDF scores are calculated for each word in each document and outputted.<br>
 ```example.csv```: the file consists of 2 columns that are Article ID and Section Text which are used for further analysis.
 
+# INSTRUCTIONS
+The python code written on Jupyter shows the working that what output was expected and Hadoop being the main source of compilation runs that as a mapper and reducer file. Each individual file is implemented with a different task.
 
 # CONTRIBUTORS
 Maryam Khalid (22i-1917) <br>
